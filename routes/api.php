@@ -20,3 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::resource('tasks',TaskController::class);
+
+Route::post('register','Auth\RegisterController@register');

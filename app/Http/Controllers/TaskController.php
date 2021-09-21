@@ -56,6 +56,7 @@ class TaskController extends Controller
      */
     public function show($id)
     {
+        // get method
         return Task::findorFail($id); //searches for the object in the database using its id and returns it.
     }
 
