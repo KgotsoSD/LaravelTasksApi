@@ -72,12 +72,17 @@ header{
            <input type="text" name="username" id="username" placeholder="Please enter a username..." />
        </header>
 
+       <div style="background-image: url('chatbg.webp');">
+           
+
            <div id="messages"></div>
            
            <form id ="message_form">
                <input type="text" name="mesaage" id="message_input" placeholder="write a message..." />
+               
                <button type="submit" id="message_send">Send Message</button>
            </form>
+          
    </div> 
 
    

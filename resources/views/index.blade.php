@@ -90,6 +90,7 @@
     }
   </script>
 </head>
+<!--
 <body class="sidebar-mini clickup-chrome-ext_installed">
   <noscript>
     <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1" />
@@ -98,7 +99,9 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6"
   height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
-  <!-- End Google Tag Manager (noscript) -->
+
+  
+  <!-- End Google Tag Manager (noscript) 
     <div class="wrapper">
         <div class="fixed-plugin">
             <div class="dropdown show-dropdown">
@@ -387,23 +390,20 @@
              Blog
           </a>
         </li>
-        <li>
-          <a href="https://www.updivision.com" target="_blank">
-             Updivision</a>
-        </li>
+       
       </ul>
     </nav>
-    <div class="copyright" id="copyright">
+  <!--  <div class="copyright" id="copyright">
       ©
       <script>
         document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
       </script>2020,  Designed by
       <a href="https://www.invisionapp.com" target="_blank"> Invision</a> . Coded by
-      <a href="https://www.creative-tim.com" target="_blank"> Creative Tim </a>&amp;
+      <a href="https://www.creative-tim.com" target="_blank"> Kgotso M </a>&amp;
       <a href="https://www.updivision.com" target="_blank"> Updivision</a>
     </div>
   </div>
-</footer></div>                    </div>
+</footer></div>   -->                 </div>
   <!--   Core JS Files   -->
   <script src="{{ asset('assets') }}/js/core/jquery.min.js"></script>
   <script src="{{ asset('assets') }}/js/core/popper.min.js"></script>
