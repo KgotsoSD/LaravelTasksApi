@@ -6,6 +6,14 @@
 
 require('./bootstrap');
 
+const messages_el = document.gwtElementById("messages");
+const username_input = document.getElementById("username");
+const message_input = document.getElementById("message_input");
+const message_form = document.getElementById("message_form");
+
+// -------TO BEGIN HERE----------//
+message_form.addEventListener('submit', function ())
+
 window.Vue = require('vue').default;
 
 /**
